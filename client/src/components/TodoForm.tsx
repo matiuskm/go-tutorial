@@ -46,7 +46,7 @@ const TodoForm = () => {
                     value={newTodo} 
                     onChange={(e) => setNewTodo(e.target.value)} 
                     autoFocus
-                    placeholder="Add a new todo..."
+                    placeholder="Add a new task..."
                 />
                 <Button mx={2} type='submit' _active={{ transform: "scale(.97)" }}>
                     {isCreating ? <Spinner size={"xs"} /> : <IoAdd size={30} />}

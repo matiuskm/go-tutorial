@@ -48,7 +48,7 @@ const TodoList = () => {
             {!isLoading && todos?.length === 0 && (
                 <Stack alignItems={"center"} gap={3}>
                     <Text fontSize={"xl"} textAlign={"center"} color={"gray.500"}>
-                        All tasks completed! 👍
+                        All tasks completed! 🎉
                     </Text>
                     <img src="/go.png" alt="go logo" width={70} height={70} />
                 </Stack>
